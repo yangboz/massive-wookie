@@ -12,15 +12,21 @@
 
 @synthesize window = _window;
 
+@synthesize glView = _glView;
+
 - (void)dealloc
 {
     [_window release];
+    [_glView release];
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    CGRect screenBounds = [[UIScreen mainScreen] bounds];
+    self.glView = [[[OpenGLView alloc] initWithFrame:screenBounds] autorelease];
+    [self.window addSubview:_glView];
     return YES;
 }
 							
