@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4FD5733175F710E0051C916 /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = A4FD5732175F710E0051C916 /* SimpleVertex.glsl */; };
+		A4FD5736175F72780051C916 /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = A4FD5735175F72780051C916 /* SimpleFragment.glsl */; };
 		A4FE6460175CE2A800617B35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FE645F175CE2A800617B35 /* UIKit.framework */; };
 		A4FE6462175CE2A800617B35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FE6461175CE2A800617B35 /* Foundation.framework */; };
 		A4FE6464175CE2A800617B35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FE6463175CE2A800617B35 /* CoreGraphics.framework */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A4FD5732175F710E0051C916 /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
+		A4FD5735175F72780051C916 /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
 		A4FE645B175CE2A800617B35 /* HelloOPGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloOPGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FE645F175CE2A800617B35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A4FE6461175CE2A800617B35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,6 +100,8 @@
 				A4FE6474175CE2A800617B35 /* ViewController.h */,
 				A4FE6475175CE2A800617B35 /* ViewController.m */,
 				A4FE6466175CE2A800617B35 /* Supporting Files */,
+				A4FD5732175F710E0051C916 /* SimpleVertex.glsl */,
+				A4FD5735175F72780051C916 /* SimpleFragment.glsl */,
 			);
 			path = HelloOPGL;
 			sourceTree = "<group>";
@@ -164,6 +170,8 @@
 			files = (
 				A4FE646A175CE2A800617B35 /* InfoPlist.strings in Resources */,
 				A4FE6473175CE2A800617B35 /* MainStoryboard.storyboard in Resources */,
+				A4FD5733175F710E0051C916 /* SimpleVertex.glsl in Resources */,
+				A4FD5736175F72780051C916 /* SimpleFragment.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +295,7 @@
 				A4FE647B175CE2A800617B35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -19,5 +19,8 @@
     CAEAGLLayer *_eagLayer;
     EAGLContext *_context;
     GLuint _colorRenderBuffer;
+    //Vertex and Fragment
+    GLuint _positionSlot;
+    GLuint _colorSlot;
 }
 @end
