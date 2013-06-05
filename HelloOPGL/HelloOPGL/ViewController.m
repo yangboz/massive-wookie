@@ -14,14 +14,21 @@
 
 @implementation ViewController
 
+@synthesize glView=_glView;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+        CGRect screenBounds = [[UIScreen mainScreen] bounds];
+    self.glView = [[[OpenGLView alloc] initWithFrame:screenBounds] autorelease];
+    [self.view addSubview:_glView];
+
 }
 
 - (void)viewDidUnload
 {
+    [_glView release];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
